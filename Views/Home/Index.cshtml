@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@model aspnet_orders.Manager
+
+
+<div class="container">
+    <h2>Homepage</h2>
+    <p>Here will be some text.</p>
+    <p>to Login press big button</p>
+    <input type="submit" class="btn btn-info btn-lg" value="Proceed to login page" onclick="location.href='@Url.RouteUrl("ShortLogin")'">
+</div>
